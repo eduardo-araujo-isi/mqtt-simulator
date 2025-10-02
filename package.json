@@ -1,0 +1,28 @@
+{
+  "name": "mqtt-simulator",
+  "version": "1.0.0",
+  "description": "Simulador de envio de dados via MQTT em TypeScript",
+  "main": "dist/simulator.js",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/simulator.js"
+  },
+  "keywords": [
+    "mqtt",
+    "simulator",
+    "typescript",
+    "iot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.6.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "mqtt": "^5.14.1"
+  }
+}
